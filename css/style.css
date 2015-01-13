@@ -1,0 +1,9 @@
+/* This file imports all your scss partials to be compiled in one stylesheet which you can attach to your html.
+all files that are formatted as _abcd.scss are called partials - meaning that their css isn't compiled unless 
+its impored into an unprefixed .scss file */
+/* variables are placeholders for storing info that you want to reuse throhgout your styles. you can store
+colours, font-stacks for any css value you might reuse. SASS uses $ to declare variables. */
+/* line 3, /Users/CaterinaOleary/Documents/School/Graphic Design/year3-2014-15/semester2/webdev/exercise-2-scss/scss/components/main */
+body {
+  background-color: #f5f5f5;
+  font-family: Helvetica, Arial, Sans-Serif; }

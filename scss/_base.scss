@@ -1,0 +1,14 @@
+//* Declare all variables *//
+
+/* variables are placeholders for storing info that you want to reuse throhgout your styles. you can store
+colours, font-stacks for any css value you might reuse. SASS uses $ to declare variables. */
+
+//colors
+
+$primary: #3498db;
+$primary-dark: #2980b9;
+$background: #f5f5f5;
+
+//fontstacks
+
+$helvetica: Helvetica, Arial, Sans-Serif;

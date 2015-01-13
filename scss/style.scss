@@ -1,0 +1,14 @@
+/* This file imports all your scss partials to be compiled in one stylesheet which you can attach to your html.
+all files that are formatted as _abcd.scss are called partials - meaning that their css isn't compiled unless 
+its impored into an unprefixed .scss file */
+
+//im port mixins, variables, and other modules (compass related)
+
+@import "base";
+@import "mixins";
+
+
+//component rules
+
+@import "components/main";
+
