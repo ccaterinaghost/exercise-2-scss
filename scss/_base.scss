@@ -5,12 +5,10 @@ colours, font-stacks for any css value you might reuse. SASS uses $ to declare v
 
 //colors
 
-$primary: #3498db;
-$primary-dark: #2980b9;
-$background: #f5f5f5;
-$secondary: #ccc;
-$secondary-dark: #666;
+$primary: #00316f;
+$primary-dark: rgba(0,0,0,0.5);
+$white: #fff;
 
 //fontstacks
 
-$helvetica: Helvetica, Arial, Sans-Serif;
+$opensans: 'Open Sans', sans-serif;

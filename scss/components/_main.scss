@@ -1,8 +1,8 @@
 //* main *//
 
 body{
-	background-color: $background;
-	font-family: $helvetica
+	background-color: $primary;
+	font-family: $opensans;
 }
 
 .primary-btn{
@@ -17,9 +17,7 @@ body{
 	}
 }
 
-.secondary-btn{
-	@include button($secondary, #666, #fff);
-}
+
 
 /* example of nested selector 
 
