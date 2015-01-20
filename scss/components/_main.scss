@@ -1,23 +1,21 @@
 //* main *//
 
 body{
-	background-color: $primary;
+	background-color: $bg;
 	font-family: $opensans;
 }
 
 .primary-btn{
-	@include button($primary, $primary-dark, #fff);
+	@include button($bg, $primary-dark, #fff);
 }
 //p is a nested element
 
-.border{
+/*.border{
 	border: 1px solid #ccc;
 	p{
 		color: $primary-dark;
 	}
-}
-
-
+}*/
 
 /* example of nested selector 
 
@@ -30,7 +28,3 @@ a{
 }
 
 */
-
-ul{
-	@extend .border;
-}
