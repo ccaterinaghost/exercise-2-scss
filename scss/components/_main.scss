@@ -10,6 +10,18 @@ body{
 	@include content;
 }
 
+i{
+	@include i;
+}
+
+h1{
+	@include h1;
+}
+
+h2{
+	@include h2;
+}
+
 .primary-btn{
 	@include button($bg, $primary-dark, #fff);
 }

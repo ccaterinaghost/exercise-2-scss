@@ -16,6 +16,28 @@ body {
   padding-bottom: 7em;
 }
 
+i {
+  font-size: 1.25em;
+  margin: 0 0.75em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 8px;
+  color: #999;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /*.border{
 	border: 1px solid #ccc;
 	p{
