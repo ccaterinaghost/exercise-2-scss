@@ -3,6 +3,11 @@
 body{
 	background-color: $bg;
 	font-family: $opensans;
+	color: $white;
+}
+
+.content{
+	@include content;
 }
 
 .primary-btn{

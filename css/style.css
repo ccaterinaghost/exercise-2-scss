@@ -6,6 +6,14 @@ colours, font-stacks for any css value you might reuse. SASS uses $ to declare v
 body {
   background-color: #00316f;
   font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  margin: 12em auto;
+  padding-bottom: 7em;
 }
 
 /*.border{
