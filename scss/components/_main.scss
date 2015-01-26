@@ -6,42 +6,114 @@ body{
 	color: $white;
 }
 
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body{
+	font-family: $opensans;
+	background-color: $bg;
+	color: $white;
+}
+
 .content{
-	@include content;
+	position: relative;
+	text-align: center;
+	margin: 12em auto;
+	padding-bottom: 7em;
 }
 
 i{
-	@include i;
+	font-size: 1.25em;
+	margin: 0 0.75em;
 }
 
 h1{
-	@include h1;
+	font-size: 2.5em;
+	margin-bottom: 1em;
+	padding: 1em;
+	background-color: rgba(0,0,0,0.5);
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 h2{
-	@include h2;
+	font-size: 8px;
+	color: $mid;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
 }
 
-.primary-btn{
-	@include button($bg, $primary-dark, #fff);
+.icon-symbol{
+	padding: 0.5em;
+	border: $border;
+	border-radius: 300px;
+	@include transition(1s, ease-in);
 }
-//p is a nested element
 
-/*.border{
-	border: 1px solid #ccc;
-	p{
-		color: $primary-dark;
+.icon-symbol:hover{
+	color: #000;
+	border-color: $bg;
+}
+
+.icon-symbol-1{
+	padding: 0.5em;
+	border: $border;
+	border-radius: 300px;
+	@include transition(0.4s, ease-in);
+}
+
+.icon-symbol-1:hover{
+	transform: scale(1.15);
+	background-color: $white;
+	border-color: $white;
+	color: #222;
 	}
-}*/
 
-/* example of nested selector 
-
-a{
-	border: 1px solid red;
-	&:hover{
-		background-color: $primary-dark;
-		border: none;
-	}
+.icon-symbol-2{
+	padding: 0.5em;
+	border: $border;
+	border-radius: 300px;
+	@include transition(1s, ease-in-out);
 }
 
-*/
+.icon-symbol-2:hover{
+	transform: scale(-1);
+	background-color: rgba(0,0,0,0.5);
+}
+
+.icon-symbol-3{
+	padding: 0.5em;
+	border: $border;
+	border-radius: 300px;
+	@include transition (.25s, ease-in);
+}
+
+.icon-symbol-3:hover{
+	border-color: $white;
+	background-color: $white;
+	color: $bg;
+}
+
+a:link,
+a:visited{
+	text-decoration: none;
+	color: $white;
+}
+
